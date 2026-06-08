@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+main section {
+}
+
+@media (width >= 600px) {
+  main {
+    flex-direction: row;
+    align-items: normal;
+  }
+
+  img {
+    max-width: 50%;
+  }
+
+  main section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
