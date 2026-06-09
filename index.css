@@ -9,7 +9,7 @@ img {
   max-width: 100%;
   border-radius: 10%;
   object-fit: cover;
-  border: 1px solid darkgray;
+  border: 1px solid darkred;
 }
 
 main section {

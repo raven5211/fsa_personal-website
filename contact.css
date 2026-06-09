@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  border: 1px solid darkred;
+  border-radius: 10%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background-color: gainsboro;
+  border: 1px solid darkred;
+  border-radius: 10%;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#msgBox {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+@media (width >= 600px) {
+  main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  img {
+    min-width: 22rem;
+    max-width: 40%;
+  }
+}

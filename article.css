@@ -12,6 +12,7 @@ article {
   padding: 5%;
   padding-bottom: 10%;
   background-color: gainsboro;
+  border: 1px solid darkred;
 }
 
 article * {
