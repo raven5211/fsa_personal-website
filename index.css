@@ -31,11 +31,16 @@ main section * {
   }
 
   img {
-    max-width: 22rem;
+    max-width: 30%;
+    min-width: 22rem;
     height: fit-content;
   }
 
   main section {
-    max-width: 22rem;
+    max-width: 30rem;
+  }
+
+  footer {
+    font-size: max(1.5vw, 1rem);
   }
 }
