@@ -39,8 +39,4 @@ main section * {
   main section {
     max-width: 30rem;
   }
-
-  footer {
-    font-size: max(1.5vw, 1rem);
-  }
 }
