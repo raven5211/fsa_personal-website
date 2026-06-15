@@ -1,3 +1,9 @@
+## important links:
+
+[source repo](https://github.com/morgan738/2605-PersonalWebsite.git)
+
+---
+
 # Getting Started
 
 - Make sure you fork/template this repository to your Github account
