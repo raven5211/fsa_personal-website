@@ -1,0 +1,9 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(250px, 100% / 4), 1fr));
+}
+
+.githubLink {
+  text-decoration: underline;
+  color: blue;
+}
